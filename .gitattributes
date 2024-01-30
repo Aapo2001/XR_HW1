@@ -1,3 +1,4 @@
+HomeWork1/Libary filter=lfs diff=lfs merge=lfs -text
 /Homework1/Assets/Classic[[:space:]]Skybox/04/sky4_RT.jpg filter=lfs diff=lfs merge=lfs -text
 /Homework1/Assets/Classic[[:space:]]Skybox/04/sky4_UP.jpg filter=lfs diff=lfs merge=lfs -text
 /Homework1/Assets/Classic[[:space:]]Skybox/05/sky5_UP.jpg filter=lfs diff=lfs merge=lfs -text
