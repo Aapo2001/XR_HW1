@@ -20,7 +20,7 @@ public class MarkLateLatchNode : MonoBehaviour
     void Start()
     {
         List<XRDisplaySubsystem> subsys = new List<XRDisplaySubsystem>();
-        SubsystemManager.GetInstances<XRDisplaySubsystem>(subsys);
+        SubsystemManager.GetSubsystems<XRDisplaySubsystem>(subsys);
 
         if (subsys.Count >= 1)
             m_DisplaySubsystem = subsys[0];

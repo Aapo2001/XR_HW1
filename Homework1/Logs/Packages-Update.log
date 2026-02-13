@@ -43,3 +43,24 @@ The following packages were updated:
   com.unity.render-pipelines.universal from version 14.0.3 to 14.0.9
   com.unity.timeline from version 1.7.1 to 1.7.6
   com.unity.visualscripting from version 1.7.8 to 1.9.1
+
+=== Fri Feb 13 04:45:51 2026
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.modules.adaptiveperformance@1.0.0
+  com.unity.modules.vectorgraphics@1.0.0
+  com.unity.modules.accessibility@1.0.0
+  com.unity.multiplayer.center@1.0.1
+The following packages were updated:
+  com.unity.collab-proxy from version 2.2.0 to 2.11.3
+  com.unity.render-pipelines.universal from version 14.0.9 to 17.3.0
+  com.unity.test-framework from version 1.1.33 to 1.6.0
+  com.unity.timeline from version 1.7.7 to 1.8.10
+  com.unity.ugui from version 1.0.0 to 2.0.0
+  com.unity.xr.interaction.toolkit from version 2.5.4 to 3.3.1
+  com.unity.xr.openxr from version 1.9.1 to 1.16.1
+The following packages were removed:
+  com.unity.textmeshpro@3.0.9
