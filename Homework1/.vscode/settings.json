@@ -51,5 +51,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Homework1.slnx"
+    "dotnet.defaultSolution": "Homework1.slnx",
+    "dotnet.preferCSharpExtension": true
 }
