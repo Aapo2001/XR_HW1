@@ -8,11 +8,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System;
+
 namespace Unity.VisualScripting.Generated.PropertyProviders
 {
 	
 	
 	[global::Unity.VisualScripting.SerializedPropertyProviderAttribute(typeof(global::UnityEngine.XR.Interaction.Toolkit.XRInteractorEvent))]
+	[Obsolete("Obsolete")]
 	public class PropertyProvider_UnityEngine_XR_Interaction_Toolkit_XRInteractorEvent : Unity.VisualScripting.SerializedPropertyProvider<UnityEngine.XR.Interaction.Toolkit.XRInteractorEvent>
 	{
 	}

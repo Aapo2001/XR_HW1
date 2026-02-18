@@ -768,6 +768,9 @@
     <Reference Include="UnityEngine.TestRunner">
       <HintPath>D:\repos\Aapo2001\XR_HW1\Homework1\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.Hands.Analytics.Hooks.Editor">
+      <HintPath>D:\repos\Aapo2001\XR_HW1\Homework1\Library\ScriptAssemblies\Unity.XR.Hands.Analytics.Hooks.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor">
       <HintPath>D:\repos\Aapo2001\XR_HW1\Homework1\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll</HintPath>
     </Reference>
@@ -782,6 +785,12 @@
     </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>D:\repos\Aapo2001\XR_HW1\Homework1\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Hands">
+      <HintPath>D:\repos\Aapo2001\XR_HW1\Homework1\Library\ScriptAssemblies\Unity.XR.Hands.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Hands.Analytics.Editor">
+      <HintPath>D:\repos\Aapo2001\XR_HW1\Homework1\Library\ScriptAssemblies\Unity.XR.Hands.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>D:\repos\Aapo2001\XR_HW1\Homework1\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
@@ -882,6 +891,9 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>D:\repos\Aapo2001\XR_HW1\Homework1\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.Hands.Editor">
+      <HintPath>D:\repos\Aapo2001\XR_HW1\Homework1\Library\ScriptAssemblies\Unity.XR.Hands.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>D:\repos\Aapo2001\XR_HW1\Homework1\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
@@ -936,9 +948,29 @@
       <Project>{667b49b0-037f-9b7a-69d0-15e9e55f0c6a}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
+      <Project>{ecda56eb-6f2c-246e-1179-9f0b31e43876}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="ControllerSample.csproj">
       <Project>{73ee64ec-e012-bb2e-a153-ca6cbe7ab4dc}</Project>
       <Name>ControllerSample</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.csproj">
+      <Project>{8a0ce24c-e6e4-563a-6f5e-a6d6dc16757c}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.Hands</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Hands.Samples.VisualizerSample.csproj">
+      <Project>{374785c2-e783-d7ee-714e-18e73cef745d}</Project>
+      <Name>Unity.XR.Hands.Samples.VisualizerSample</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj">
+      <Project>{572812e0-1f81-6eea-ef1d-19157f9fae12}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.Hands.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
+      <Project>{c6e975c0-b55a-2cb5-95ee-dffb459e1db9}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj">
       <Project>{e7df471e-e009-6cef-7452-90067fe6d153}</Project>
